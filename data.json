@@ -1,0 +1,100 @@
+{
+	"phases": [
+		{
+			"stage": 0,
+			"grace": 0,
+			"duration": 60,
+			"damage": 1,
+			"diameter": 5000,
+			"type": "regular"
+		},
+		{
+			"stage": 1,
+			"grace": 120,
+			"duration": 90,
+			"damage": 1,
+			"diameter": 2200,
+			"type": "regular"
+		},
+		{
+			"stage": 2,
+			"grace": 90,
+			"duration": 90,
+			"damage": 1,
+			"diameter": 1800,
+			"type": "regular"
+		},
+		{
+			"stage": 3,
+			"grace": 105,
+			"duration": 90,
+			"damage": 1,
+			"diameter": 1400,
+			"type": "regular"
+		},
+		{
+			"stage": 4,
+			"grace": 90,
+			"duration": 90,
+			"damage": 1,
+			"diameter": 1000,
+			"type": "regular"
+		},
+		{
+			"stage": 5,
+			"grace": 60,
+			"duration": 60,
+			"damage": 1,
+			"diameter": 600,
+			"type": "regular"
+		},
+		{
+			"stage": 6,
+			"grace": 60,
+			"duration": 60,
+			"damage": 2,
+			"diameter": 350,
+			"type": "partial"
+		},
+		{
+			"stage": 7,
+			"grace": 60,
+			"duration": 60,
+			"damage": 5,
+			"diameter": 200,
+			"type": "partial"
+		},
+		{
+			"stage": 8,
+			"grace": 45,
+			"duration": 45,
+			"damage": 8,
+			"diameter": 100,
+			"type": "partial"
+		},
+		{
+			"stage": 9,
+			"grace": 30,
+			"duration": 55,
+			"damage": 10,
+			"diameter": 50,
+			"type": "moving"
+		},
+		{
+			"stage": 10,
+			"grace": 0,
+			"duration": 30,
+			"damage": 5,
+			"diameter": 20,
+			"type": "moving"
+		},
+		{
+			"stage": 11,
+			"grace": 0,
+			"duration": 30,
+			"damage": 5,
+			"diameter": 0,
+			"type": "moving"
+		}
+	]
+}

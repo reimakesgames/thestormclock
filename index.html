@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Storm Clock</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>The Storm Clock</h1>
+
+			<canvas id="canvas" width="640" height="160"></canvas>
+
+			<div>
+				<div>Game Duration</div>
+				<div id="duration">00:00</div>
+
+				<div>Time until next circle</div>
+				<div id="time">00:00</div>
+
+				<div>Current Storm Damage</div>
+				<div id="damage">0</div>
+
+				<div>Storm Circle</div>
+				<div id="circle">0</div>
+
+				<div>Storm Size</div>
+				<div id="size">0</div>
+
+				<button id="start">Start</button>
+			</div>
+		</div>
+		<script src="app.js" type="module"></script>
+	</body>
+</html>
